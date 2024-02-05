@@ -38,8 +38,24 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
 
         [notice] A new release of pip is available: 23.2.1 -> 24.0
         [notice] To update, run: python.exe -m pip install --upgrade pip
+		(dj5-bookr) λ
 
+#### 3. Git commit 
 
+        (dj5-bookr) λ git add .
+
+        (dj5-bookr) λ git status
+        On branch main
+        Your branch is ahead of 'origin/main' by 3 commits.
+         (use "git push" to publish your local commits)
+
+        Changes to be committed:
+         (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        
+        (dj5-bookr) λ git commit -am "3. Menginstal Django versi 5.0.1"
+        [main 51d6231] 3. Menginstal Django versi 5.0.1
+         1 file changed, 12 insertions(+)
 
 
 
