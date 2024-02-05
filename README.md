@@ -52,10 +52,32 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
         Changes to be committed:
          (use "git restore --staged <file>..." to unstage)
         modified:   README.md
-        
+
         (dj5-bookr) λ git commit -am "3. Menginstal Django versi 5.0.1"
         [main 51d6231] 3. Menginstal Django versi 5.0.1
          1 file changed, 12 insertions(+)
+
+#### 4. Meng-upload (push) file proyek ke remote repositori di Github
+
+        (dj5-bookr) λ git status
+        On branch main
+        Your branch is ahead of 'origin/main' by 5 commits.
+          (use "git push" to publish your local commits)
+
+        nothing to commit, working tree clean
+
+        E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Development-with-Django-4-2nd-Edition\the-project(main -> origin)
+        (dj5-bookr) λ git push
+        Enter passphrase for key '/c/Users/ING/.ssh/id_rsa':
+        Enumerating objects: 17, done.
+        Counting objects: 100% (17/17), done.
+        Delta compression using up to 8 threads
+        Compressing objects: 100% (15/15), done.
+        Writing objects: 100% (15/15), 2.08 KiB | 532.00 KiB/s, done.
+        Total 15 (delta 4), reused 0 (delta 0), pack-reused 0
+        remote: Resolving deltas: 100% (4/4), done.
+        To github.com:gurnitha/2024-Web-Development-with-Django-4-2nd-Edition.git
+          942461e..f9ec014  main -> main
 
 
 
