@@ -6,6 +6,7 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
 
 ## 1. SETUP
 
+
 #### 1. Membuat linkungan virtual 'venv312501'
 
         modified:   README.md        
@@ -19,6 +20,7 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
         pip 23.3.2 
         λ python -m venv venv312501 --prompt dj5-bookr
 
+
 #### 2. Mengaktifkan venv312501
 
         modified:   README.md 
@@ -26,6 +28,7 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
         λ REM: Mengaktifkan venv312501
         λ venv312501\Scripts\activate.bat
         (dj5-bookr) λ
+
 
 #### 3. Menginstal Django versi 5.0.1
 
@@ -38,6 +41,7 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
 
         [notice] A new release of pip is available: 23.2.1 -> 24.0
         [notice] To update, run: python.exe -m pip install --upgrade pip
+
 
 #### 3. Git commit 
 
@@ -55,6 +59,7 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
         (dj5-bookr) λ git commit -am "3. Menginstal Django versi 5.0.1"
         [main 51d6231] 3. Menginstal Django versi 5.0.1
          1 file changed, 12 insertions(+)
+
 
 #### 4. Meng-upload (push) file proyek ke remote repositori di Github
 
@@ -78,6 +83,7 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
         To github.com:gurnitha/2024-Web-Development-with-Django-4-2nd-Edition.git
           942461e..f9ec014  main -> main
 
+
 #### 5. Membenahi README.md file
 
         modified:   README.md 
@@ -86,6 +92,7 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
 
 
 ## 2. MEMBUAT PROYEK DAN APPS DJANGO
+
 
 #### 1. Membuat proyek django dengan nama: bookr
 
@@ -109,7 +116,7 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
 
         ...
             startapp
-            startproject
+            startproject <----
         ...
 
         (dj5-bookr) λ REM: Membuat proyek django
@@ -123,6 +130,7 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
         new file:   bookr/urls.py
         new file:   bookr/wsgi.py
         new file:   manage.py
+
 
 #### 2. Memeriksa struktur proyek
 
@@ -140,16 +148,69 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
                 wsgi.py
                 __init__.py  
 
+
 #### 3. Meng-upgrade pip
       
         (dj5-bookr) λ REM: Perintah meng-upgrade pip
       
         (dj5-bookr) λ python.exe -m pip install --upgrade pip
         ...
-        Successfully installed pip-24.0
+        Successfully installed pip-24.0  
 
 
+#### 4. Menjalankan django development (lokal) server
 
+        (dj5-bookr) λ REM: Memerikasa file
+
+        (dj5-bookr) λ ls
+        bookr/  manage.py*  README.md
+
+        (dj5-bookr) λ REM: Memerikasa perintah untuk menjalankan server
+
+        (dj5-bookr) λ python manage.py
+
+        ...
+            runserver
+
+        (dj5-bookr) λ REM: Menjalankan server
+
+        (dj5-bookr) λ python manage.py runserver
+        Watching for file changes with StatReloader
+        ...
+        February 05, 2024 - 08:36:10
+        Django version 5.0.1, using settings 'bookr.settings'
+        Starting development server at http://127.0.0.1:8000/
+        Quit the server with CTRL-BREAK.
+
+
+#### 5. Membuat aplikasi django dengan nama: app_reviews
+
+        (dj5-bookr) λ REM: Memeriksa perintah membuat aplikasi
+
+        (dj5-bookr) λ python manage.py
+
+        ...
+            startapp <----
+            startproject
+
+        (dj5-bookr) λ REM: Membuat aplikasi reviews di dalam folder khusus 'apps'
+
+        (dj5-bookr) λ mkdir apps
+        (dj5-bookr) λ mkdir apps\reviews
+        (dj5-bookr) λ python manage.py startapp reviews apps\reviews <----
+
+        modified:   README.md
+        new file:   apps/reviews/__init__.py
+        new file:   apps/reviews/admin.py
+        new file:   apps/reviews/apps.py
+        new file:   apps/reviews/migrations/__init__.py
+        new file:   apps/reviews/models.py
+        new file:   apps/reviews/tests.py
+        new file:   apps/reviews/views.py
+
+        NOTE:
+
+        1. Aplikasi reviews dibuat di dalam folder khusus 'apps'
 
 
 
