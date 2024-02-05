@@ -27,6 +27,18 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
 		λ venv312501\Scripts\activate.bat
 		(dj5-bookr) λ
 
+#### 3. Menginstal Django versi 5.0.1
+
+        modified:   README.md 
+
+        (dj5-bookr) λ pip install django==5.0.1
+        Collecting django==5.0.1
+        ...
+        Successfully installed asgiref-3.7.2 django-5.0.1 sqlparse-0.4.4 tzdata-2023.4
+
+        [notice] A new release of pip is available: 23.2.1 -> 24.0
+        [notice] To update, run: python.exe -m pip install --upgrade pip
+
 
 
 
