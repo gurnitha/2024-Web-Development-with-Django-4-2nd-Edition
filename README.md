@@ -220,6 +220,19 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
         modified:   bookr/settings.py
 
 
+#### 7. Memastikan tidak terjadi error atau tidak ada bugs
+
+        (dj5-bookr) λ REM: Memerikas perintah
+
+        (dj5-bookr) λ python manage.py
+
+        ...
+            check
+
+        (dj5-bookr) λ REM: Menjalankan perintah menggunakan check
+
+        (dj5-bookr) λ python manage.py check
+        System check identified no issues (0 silenced). <---- hasil
 
 
 
