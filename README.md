@@ -19,7 +19,13 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
         pip 23.3.2 
         λ python -m venv venv312501 --prompt dj5-bookr
 
+#### 2. Mengaktifkan venv312501
 
+        modified:   README.md 
+
+		λ REM: Mengaktifkan venv312501
+		λ venv312501\Scripts\activate.bat
+		(dj5-bookr) λ
 
 
 
