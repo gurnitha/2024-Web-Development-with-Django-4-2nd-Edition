@@ -23,9 +23,9 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
 
         modified:   README.md 
 
-		λ REM: Mengaktifkan venv312501
-		λ venv312501\Scripts\activate.bat
-		(dj5-bookr) λ
+        λ REM: Mengaktifkan venv312501
+        λ venv312501\Scripts\activate.bat
+        (dj5-bookr) λ
 
 #### 3. Menginstal Django versi 5.0.1
 
@@ -78,6 +78,12 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
         remote: Resolving deltas: 100% (4/4), done.
         To github.com:gurnitha/2024-Web-Development-with-Django-4-2nd-Edition.git
           942461e..f9ec014  main -> main
+
+#### 5. Membenahi README.md file
+
+        modified:   README.md 
+
+        Note: Membenahi bagian no. 2
 
 
 
