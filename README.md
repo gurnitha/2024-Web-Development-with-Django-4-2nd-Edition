@@ -5,3 +5,39 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
 
 
 ## 1. SETUP
+
+#### 1. Membuat linkungan virtual 'venv312501'
+
+        modified:   README.md        
+
+        λ REM: Membuat linkungan virtual
+
+        λ python --version
+        Python 3.12.1
+        λ pip --vesion
+        λ pip --version
+        pip 23.3.2 
+        λ python -m venv venv312501 --prompt dj5-bookr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
