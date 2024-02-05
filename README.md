@@ -213,6 +213,12 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
         1. Aplikasi reviews dibuat di dalam folder khusus 'apps'
 
 
+#### 6. Meregistrasi aplikasi reviews pada bookr/settings.py
+
+        modified:   README.md
+        modified:   apps/reviews/apps.py
+        modified:   bookr/settings.py
+
 
 
 
