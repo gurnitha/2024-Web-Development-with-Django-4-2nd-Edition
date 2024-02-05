@@ -124,28 +124,22 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
         new file:   bookr/urls.py
         new file:   bookr/wsgi.py
         new file:   manage.py
-                                                 
-                                 
 
+#### 2. Memeriksa struktur proyek
 
+	(dj5-bookr) λ tree /f
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	E: the-project
+	│   .gitignore
+	│   manage.py
+	│   README.md
+	│
+	└───bookr
+	        asgi.py
+	        settings.py
+	        urls.py
+	        wsgi.py
+	        __init__.py        
 
 
 
