@@ -38,7 +38,6 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
 
         [notice] A new release of pip is available: 23.2.1 -> 24.0
         [notice] To update, run: python.exe -m pip install --upgrade pip
-                (dj5-bookr) λ
 
 #### 3. Git commit 
 
@@ -127,20 +126,27 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
 
 #### 2. Memeriksa struktur proyek
 
-	(dj5-bookr) λ tree /f
+        (dj5-bookr) λ tree /f
 
-	E: the-project
-	│   .gitignore
-	│   manage.py
-	│   README.md
-	│
-	└───bookr
-	        asgi.py
-	        settings.py
-	        urls.py
-	        wsgi.py
-	        __init__.py        
+        E: the-project
+        │   .gitignore
+        │   manage.py
+        │   README.md
+        │
+        └───bookr
+                asgi.py
+                settings.py
+                urls.py
+                wsgi.py
+                __init__.py  
 
+#### 3. Meng-upgrade pip
+      
+        (dj5-bookr) λ REM: Perintah meng-upgrade pip
+      
+        (dj5-bookr) λ python.exe -m pip install --upgrade pip
+        ...
+        Successfully installed pip-24.0
 
 
 
