@@ -86,6 +86,9 @@ Lokal repositori: E:\_WORKSPACE\2024\django\EBOOK-BASED-PROJECTS\2024-Web-Develo
         Note: Membenahi bagian no. 2
 
 
+## 2. MEMBUAT PROYEK DAN APPS DJANGO
+
+
 
 
 
